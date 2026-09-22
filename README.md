@@ -1,12 +1,21 @@
-# Dynamic Yield Management para Cadenas Hoteleras
+# 🚀 Causal Inference & Pricing Science Engine
 
-Este proyecto aborda uno de los problemas más críticos en la gestión de inventarios perecederos: la pérdida de ingresos por cancelaciones de última hora. Al transformar datos históricos en información predictiva accionable, este modelo permite ejecutar estrategias de *overbooking* seguras, maximizando las ventas sin comprometer la satisfacción del huésped.
+Este repositorio contiene un motor analítico avanzado diseñado para la optimización de Revenue Management y Pricing Dinámico en el sector de la aviación y *hospitality*. 
 
-## Impacto de Negocio
-* **Optimización de Revenue:** Permite sobrevender habitaciones estratégicamente al identificar reservas con >80% de probabilidad de cancelación.
-* **Asignación de Recursos:** Ayuda a los equipos de operaciones a prever la ocupación real, ajustando el personal de limpieza y recepción.
+El proyecto demuestra la aplicación de metodologías rigurosas de ciencia de datos, yendo más allá de la predicción tradicional para adentrarse en la **inferencia causal** y la **toma de decisiones prescriptiva**.
 
-## Metodología y Modelamiento
-Se evaluó un ensamble de modelos de Machine Learning (Random Forest, AdaBoost, XGBoost) para predecir la variable objetivo `is_canceled`. 
-* El modelo ganador fue **XGBoost**, optimizado mediante validación cruzada.
-* Se priorizó el área bajo la curva (AUC) y la métrica de *Precision* para minimizar el riesgo operativo de denegar alojamiento a un cliente legítimo.
+## 📊 Características Principales
+
+*   **Inferencia Causal y Uplift Modeling:** Evaluación del *Average Treatment Effect* (ATE) de diferentes estrategias de precios sobre la demanda de reservas, utilizando métodos cuasi-experimentales.
+*   **Pricing Science & Elasticidad:** Modelamiento de la curva de demanda para estimar la elasticidad precio y encontrar puntos óptimos de maximización de *revenue*.
+*   **Análisis Contrafactual:** Simulaciones visuales del comportamiento de la demanda bajo escenarios de "Tratamiento" (con descuentos dirigidos) vs "Control".
+*   **Control de Riesgos:** Evaluación cuantitativa de efectos de canibalización y sustitución de demanda entre diferentes clases tarifarias.
+
+## 🛠️ Stack Tecnológico
+*   **Python:** Lenguaje principal.
+*   **Statsmodels & Scikit-Learn:** Para diseño de experimentos, modelos econométricos (Difference-in-Differences) y *machine learning*.
+*   **Plotly:** Visualizaciones interactivas y estéticas de alto impacto.
+*   **Streamlit:** Despliegue rápido de la aplicación web interactiva.
+
+## 📌 Contexto
+Este proyecto forma parte de un portafolio profesional orientado a roles Senior en Data Science, con fuerte foco en econometría y *business impact*.
