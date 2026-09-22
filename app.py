@@ -6,7 +6,7 @@ import plotly.express as px
 
 # Configuración de la página (Tema oscuro y profesional Enterprise B2B)
 st.set_page_config(
-    page_title="DRIMO | Pricing & Causal AI Engine", 
+    page_title="QuantumAir | Pricing & Causal AI Engine", 
     layout="wide", 
     initial_sidebar_state="expanded"
 )
@@ -110,7 +110,7 @@ cannibalization_matrix = np.array([
 # ---------------------------------------------------------
 # UI MAIN DASHBOARD
 # ---------------------------------------------------------
-st.markdown("<h1>DRIMO | Causal Pricing & Yield Optimization Engine</h1>", unsafe_allow_html=True)
+st.markdown("<h1>QuantumAir | Causal Pricing & Yield Optimization Engine</h1>", unsafe_allow_html=True)
 st.markdown("<span style='color: #8C98A4;'>Plataforma prescriptiva B2B para inferencia causal, modelamiento de elasticidad cruzada y A/B Testing continuo.</span>", unsafe_allow_html=True)
 st.write("")
 
@@ -232,10 +232,9 @@ with col_did2:
 st.markdown(
     """
     <div class="footer">
-        <div><strong>DRIMO SYSTEM</strong> // Causal Pricing Module v2.4.1</div>
+        <div><strong>QuantumAir SYSTEM</strong> // Causal Pricing Module v2.4.1</div>
         <div>
-            <span style="color: #00E676;">█ EXPERTO:</span> Data Scientist Senior (Econometría) | 
-            <span style="color: #2979FF;">█ GRADO:</span> PhD / MSc Analytics
+            <span style="color: #00E676;">█ EXPERTO:</span> Marcelo E. León Vargas | Data Scientist Senior
         </div>
     </div>
     """,
